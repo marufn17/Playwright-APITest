@@ -1,0 +1,15 @@
+{
+  "name": "automation-api_test_framework_with_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:api":"playwright test --config=playwright.config.ts --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.1"
+  }
+}
